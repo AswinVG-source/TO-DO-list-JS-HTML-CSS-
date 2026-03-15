@@ -10,7 +10,7 @@ A sleek, ultra-dark mode "Gothic Spotify" themed To-Do List application. This pr
 
 Why build a boring list? "Alfie's Tasks" uses a signature Gothic Spotify theme—pure black background (`#000000`), subtle dark grey cards, and the iconic Spotify Green (`#1DB954`) for highlights and action elements.
 
-![Application Screenshot](https://raw.githubusercontent.com/your-username/alfies-tasks/main/image_3.png)
+ ![Application screen shot ](https://github.com/AswinVG-source/TO-DO-list-JS-HTML-CSS-/blob/main/Screenshot%202026-03-15%20191316.png?raw=true).
 *Figure 1: The application's main interface, showcasing the Gothic Spotify theme.*
 
 ## 🚀 Key Engineering Features
