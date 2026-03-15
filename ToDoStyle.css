@@ -1,0 +1,112 @@
+/* Gothic Spotify Theme */
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    margin: 0;
+}
+
+p.title {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+    color: #1DB954; /* Spotify Green Accent */
+}
+
+/* Input Container */
+.input-grid {
+    background-color: #121212; /* Subtle dark grey card */
+    padding: 20px;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 200px 150px 120px 100px;
+    column-gap: 12px;
+    row-gap: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 1px solid #282828;
+}
+
+input {
+    background-color: #2A2A2A;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: 1px solid #1DB954;
+    background-color: #333333;
+}
+
+/* Add Button Style */
+.add-btn {
+    background-color: #1DB954;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 20px; /* Pill shape like Spotify */
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.add-btn:hover {
+    transform: scale(1.05);
+    background-color: #1ed760;
+}
+
+/* Tasks Display */
+.js-display-task-blocks {
+    width: 600px;
+}
+
+.todo-row {
+    background-color: #121212;
+    margin-bottom: 8px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 200px 120px 100px 100px;
+    align-items: center;
+    transition: background-color 0.2s;
+    border: 1px solid transparent;
+}
+
+.todo-row:hover {
+    background-color: #282828;
+    border: 1px solid #3e3e3e;
+}
+
+.task-name {
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.task-date, .task-time {
+    color: #B3B3B3; /* Secondary text color */
+    font-size: 13px;
+}
+
+/* Delete Button */
+.delete-btn {
+    background-color: transparent;
+    color: #B3B3B3;
+    border: 1px solid #B3B3B3;
+    padding: 5px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.delete-btn:hover {
+    color: white;
+    border-color: white;
+}
