@@ -25,8 +25,3 @@ Why build a boring list? "Alfie's Tasks" uses a signature Gothic Spotify themeâ€
 ### Modern JavaScript (ES6+)
 
 The core logic makes extensive use of modern ES6 features to keep code clean and maintainable.
-
-**Object Destructuring:**
-We pull the necessary data out of each task object in one line within the render loop:
-```javascript
-const {name, duedate, Reminderat} = todolistiteam;
