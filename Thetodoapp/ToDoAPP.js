@@ -59,6 +59,11 @@ function catchTheiteam (){
         alert("Please set a time for the reminder!");
         return;
     }
+    if (!taskName) {
+        alert("Please enter the name of the Task!");
+        return;
+    }
+    
     todoList.push({name:taskName,
         duedate:taskdate,
         Reminderat:tasktime}
